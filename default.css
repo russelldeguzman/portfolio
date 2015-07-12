@@ -1,0 +1,56 @@
+@font-face { font-family: Quicksand; src: url('quicksand/Quicksand-Regular.otf');}
+
+html, body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+body{
+	position: relative;
+}
+
+#navbar{
+	width: 8%;
+	height: 100%;
+	background: #00BFFF;
+	position: fixed;
+	opacity: 0.7;
+}
+
+#navlist{
+	overflow:hidden;
+	position:absolute;
+	height:100%;
+	width: 100%;
+}
+
+#navlist ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align: center;
+}
+
+#navlist li{
+	float: left;
+	display: block;
+	position: relative;
+	width: 100%;
+	color: #FFF0F5;
+	opacity:0.5;
+	font-family: Quicksand;
+	height:16.66666666667%;
+}
+
+#navlist a{
+	font-size:100%;
+}
+
+.icon{
+	width:60%;
+	height:60%;
+	margin-top: 10%
+}
